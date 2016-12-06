@@ -66,7 +66,7 @@
   			<img class="kwast-sample" src="img/bottle-right.jpg">
   			<p class="kwast-sample-description">Легкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня</p>
   			<a class="btn btn-details" href="#">Подробнее</a>
-  			<a class="_button" href="#">Купить</a>
+  			<a class="btn" href="#">Купить</a>
   			<span>90 р.</span>
   		</section>
   	</section>
@@ -151,7 +151,22 @@
   			</tbody>
   		</table>
   	</section>
-  	<section></section>
+  	<section class="custom-form">
+  		<h2>Заказать</h2>
+  		<p>Не ждите, пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
+  		<form method="post" action="#">
+  			<label for="name">Представьтесь: <input type="text" name="name" placeholder="Как мы можем к Вам обращаться?"></label>
+  			<label class="half-sized">Номер телефона: <input type="text" name="phone-number" placeholder="+7 (XXX) XXX-XX-XX"></label>
+  			<label class="half-sized">Доп. номер: <input type="text" name="other-phone-number" placeholder="+7 (XXX) XXX-XX-XX"></label>
+  			<label>E-mail: <input type="text" name="e-mail" placeholder="Ваша электронная почта"></label>
+  			<label>Объем заказа: 
+  				<input type="text" name="kwas-quantanty" placeholder="От 5 до 10 баррелей в неделю">
+  			</label>
+  			<label>Доп. комментарий: <textarea name="comment" placeholder="Сообщите нам всё, что считаете нужным"></textarea></label>
+  			<label><input type="checkbox" name="spam" checked=""> Я согласен получасть квасную рассылку</label>
+  			<button class="btn" type="submit">Отправить заказ</button>
+  		</form>
+  	</section>
   	<footer></footer>
   </body>
 </html>
