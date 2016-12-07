@@ -157,18 +157,20 @@
   	</section>
   	<section class="custom-form">
   		<h2>Заказать</h2>
-  		<p>Не ждите, пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
+  		<p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
   		<form method="post" action="#">
-  			<label for="name">Представьтесь: <input type="text" name="name" placeholder="Как мы можем к Вам обращаться?"></label>
-  			<label class="half-sized">Номер телефона: <input type="text" name="phone-number" placeholder="+7 (XXX) XXX-XX-XX"></label>
-  			<label class="half-sized">Доп. номер: <input type="text" name="other-phone-number" placeholder="+7 (XXX) XXX-XX-XX"></label>
-  			<label>E-mail: <input type="text" name="e-mail" placeholder="Ваша электронная почта"></label>
+  			<label for="name">Представьтесь: <input type="text" name="name"></label><br>
+  			<label class="half-sized">Номер телефона: <input type="text" name="phone-number"></label><br>
+            <label class="half-sized">Доп. номер: <input type="text" name="other-phone-number"></label><br>
+            <label>Email: <input type="text" name="e-mail"></label><br>
   			<label>Объем заказа: 
-  				<input type="text" name="kwas-quantanty" placeholder="От 5 до 10 баррелей в неделю">
-  			</label>
-  			<label>Доп. комментарий: <textarea name="comment" placeholder="Сообщите нам всё, что считаете нужным"></textarea></label>
-  			<label><input type="checkbox" name="spam" checked=""> Я согласен получасть квасную рассылку</label>
-  			<button class="btn" type="submit">Отправить заказ</button>
+  		      <select name="kwas-quantanty">
+               <option value="5-10">От 5 до 10 баррелей в неделю</option>
+              </select>
+            </label><br>
+          <label>Доп. комментарий: <textarea name="comment" cols="100" rows="10"></textarea></label><br>
+          <label><input type="checkbox" name="spam" checked=""> Я согласен получасть квасную рассылку</label><br>
+          <button class="btn" type="submit">Отправить заказ</button>
   		</form>
   	</section>
   	<footer>
