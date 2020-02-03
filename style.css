@@ -17,7 +17,6 @@ body {
 .container {
   width: 800px;
   margin: 0 auto;
-  outline: 2px solid blue;
 }
 
 .page-header {
@@ -31,8 +30,7 @@ body {
   background-image: url("img/wheat-back.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
-/*  background-size: cover;*/
-  outline: 2px solid red;
+  background-size: cover;
 }
 
 .header-top .logo {
@@ -47,14 +45,27 @@ body {
   min-height: 57px;
   margin-top: 10px;
   margin-left: 0;
-  margin-right: 0;
   margin-bottom: 115px;
   padding: 0;
+  border-top: 1px solid rgba(255, 255, 255 ,0.2);
+  border-bottom: 1px solid rgba(255, 255, 255 ,0.2);
   list-style: none;
-  outline: 2px solid green;
+}
+
+.main-menu li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.main-menu li:nth-child(4n) {
+  margin-right: 0;
 }
 
 .main-menu a {
+  display: block;
+  padding: 20px 0;
+  
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
