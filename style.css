@@ -23,11 +23,15 @@ body {
 .page-header {
   min-height: 360px;
   padding-top: 60px;
-  padding-bottom: 130px;
+  padding-bottom: 150px;
   
   color: #ffffff;
   
   background-color: #5e3809;
+  background-image: url("img/wheat-back.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+/*  background-size: cover;*/
   outline: 2px solid red;
 }
 
@@ -41,7 +45,9 @@ body {
   float: right;
   width: 600px;
   min-height: 57px;
-  margin: 0;
+  margin-top: 10px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 115px;
   padding: 0;
   list-style: none;
