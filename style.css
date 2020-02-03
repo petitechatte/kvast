@@ -19,6 +19,11 @@ body {
   margin: 0 auto;
 }
 
+.wrapper {
+  width: 1015px;
+  margin: 0 auto;
+}
+
 .btn {
   display: inline-block;
   padding: 14px 20px;
@@ -241,4 +246,34 @@ body {
 }
 .card .btn-details {
   margin-top: 52px;
+}
+
+.features {
+  padding-top: 80px;
+  padding-bottom: 75px;
+  background-color: #ffcb78;
+}
+
+.features-list {
+  margin: 0;
+  padding: 0 2px;
+  list-style: none;
+  outline: 1px solid red;
+}
+
+.features-item {
+  float: left;
+  width: 210px;
+  margin-right: 190px;
+  padding-top: 100px;
+  outline: 1px solid black;
+}
+
+.features-item:nth-child(3n) {
+  float: right;
+  margin-right: 0;
+}
+
+.feature-tagline {
+  margin-bottom: 25px;
 }
