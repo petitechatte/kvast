@@ -126,10 +126,6 @@ body {
   text-align: center;
 }
 
-.new-sorts .container {
-  outline: 1px solid red;
-}
-
 .new-sorts {
   padding-top: 85px;
   padding-bottom: 110px;
@@ -204,6 +200,20 @@ body {
   margin-top: 12px;
 }
 
+.card .btn-details {
+  margin-right: 2px;
+}
+
+.card .btn-inverse {
+  margin-right: 20px;
+}
+
+.card .item-price {
+  line-height: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+}
 .card .btn-details {
   margin-top: 52px;
 }
