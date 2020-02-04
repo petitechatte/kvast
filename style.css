@@ -364,3 +364,41 @@ body {
   float: left;
   width: 490px;
 }
+
+/* пресса */
+
+.quote {
+  padding-top: 80px;
+  padding-bottom: 90px;
+  
+  background-color: #ede5d8;
+}
+
+.quote .container {
+  outline: 1px solid red;
+}
+
+.quote h2 {
+  margin-bottom: 85px;
+}
+
+.quote .review {
+  margin: 0;
+  padding: 0;
+}
+
+.review p {
+  width: 690px;
+}
+
+.review cite {
+  float: right;
+  width: 400px;
+  margin-top: 42px;
+  outline: 1px solid black;
+}
+
+.review .btn {
+  float: left;
+  margin-top: 30px;
+}
