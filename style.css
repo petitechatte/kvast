@@ -1,3 +1,5 @@
+/* общие стили */
+
 body {
   margin: 0;
   padding: 0;
@@ -14,11 +16,13 @@ body {
   clear: both;
 }
 
+/* узкий центровщик */
 .container {
   width: 800px;
   margin: 0 auto;
 }
 
+/* Широкий центровщик */
 .wrapper {
   width: 1015px;
   margin: 0 auto;
@@ -62,8 +66,9 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+/* шапка сайта */
+
 .page-header {
-  min-height: 360px;
   padding-top: 60px;
   padding-bottom: 150px;
   
@@ -85,7 +90,6 @@ body {
 .main-menu {
   float: right;
   width: 600px;
-  min-height: 57px;
   margin-top: 10px;
   margin-left: 0;
   margin-bottom: 115px;
@@ -154,6 +158,8 @@ body {
   text-align: center;
 }
 
+/* новинки */
+
 .new-sorts {
   padding-top: 85px;
   padding-bottom: 110px;
@@ -196,7 +202,6 @@ body {
 
 .kwast-sample_details .characteristics {
   width: 100%;
-  min-height: 84px; /* временно */
   border-collapse: collapse;
 }
 
@@ -248,6 +253,8 @@ body {
   margin-top: 52px;
 }
 
+/* преимущества */
+
 .features {
   padding-top: 80px;
   padding-bottom: 75px;
@@ -294,4 +301,57 @@ body {
   font-size: 20px;
   color: #000000;
   text-transform: uppercase;
+}
+
+/* исторический раздел */
+
+.history-blog {
+  padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+.history-blog .container {
+  outline: 1px solid red;
+}
+
+.history-blog h2 {
+  margin-top: 0;
+  margin-bottom: 75px;
+}
+
+.history-blog-previews {
+  outline: 1px solid blue;
+}
+
+.history-preview-header {
+  outline: 1px solid green;
+}
+
+.history-preview-header h3 {
+  float: left;
+  width: 490px;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.history-preview-header .history-source {
+  float: right;
+  width: 200px;
+}
+
+.history-preview-content {
+  margin-left: 0;
+  margin-bottom: 60px;
+  outline: 1px solid black;
+}
+
+.history-preview-content img {
+  float: right;
+  max-width: 100%;
+  height: auto;
+}
+
+.history-preview-text {
+  float: left;
+  width: 490px;
 }
