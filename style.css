@@ -258,7 +258,6 @@ body {
   margin: 0;
   padding: 0 2px;
   list-style: none;
-  outline: 1px solid red;
 }
 
 .features-item {
@@ -266,12 +265,27 @@ body {
   width: 210px;
   margin-right: 190px;
   padding-top: 100px;
-  outline: 1px solid black;
+  
+  background-image: url("img/icon-brew.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .features-item:nth-child(3n) {
   float: right;
   margin-right: 0;
+}
+
+.features-item:first-child {
+  background-image: url("img/icon-brew.png");
+}
+
+.features-item:nth-child(2) {
+  background-image: url("img/icon-matreshka.png");
+}
+
+.feature-item:nth-child(3) {
+  background-image: url("img/icon-thumbsup.png");
 }
 
 .feature-tagline {
