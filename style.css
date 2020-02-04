@@ -310,21 +310,14 @@ body {
   padding-bottom: 75px;
 }
 
-.history-blog .container {
-  outline: 1px solid red;
-}
-
 .history-blog h2 {
   margin-top: 0;
   margin-bottom: 75px;
-}
-
-.history-blog-previews {
-  outline: 1px solid blue;
-}
-
-.history-preview-header {
-  outline: 1px solid green;
+  
+  font-size: 40px;
+  line-height: 61px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .history-preview-header h3 {
@@ -332,17 +325,33 @@ body {
   width: 490px;
   margin-top: 0;
   margin-bottom: 25px;
+  
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
-.history-preview-header .history-source {
+.history-source {
   float: right;
   width: 200px;
+}
+
+.history-source a {
+  color: #834700;
+  font-style: italic;
+}
+
+.history-source a:hover {
+  color: #6a3900;
+}
+
+.history-source a:active {
+  color: #cab7a2;
 }
 
 .history-preview-content {
   margin-left: 0;
   margin-bottom: 60px;
-  outline: 1px solid black;
 }
 
 .history-preview-content img {
