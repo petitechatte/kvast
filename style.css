@@ -372,31 +372,71 @@ body {
   background-color: #ede5d8;
 }
 
-.quote .container {
-  outline: 1px solid red;
-}
-
 .quote h2 {
   margin-bottom: 85px;
 }
 
 .quote .review {
+  position: relative;
+
   margin: 0;
   padding: 0;
+}
+
+.quote .review::before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: -110px;
+
+  width: 41px;
+  height: 31px;
+  
+  background-image: url("img/quotes.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
 }
 
 .review p {
   width: 690px;
 }
 
+.review p:first-child {
+  margin-top: 0;
+}
+
 .review cite {
   float: right;
   width: 400px;
   margin-top: 42px;
-  outline: 1px solid black;
+  
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  color: #000000;
+  text-transform: uppercase;
+  text-align: right;
 }
 
 .review .btn {
   float: left;
   margin-top: 30px;
+  border-color: #a5a097;
+  
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.review .btn:hover {  
+  color: #ffffff;
+  
+  background-color: #a5a097;
+}
+
+.review .btn:active {
+  border-color: #8f8a81;
+
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #8f8a81;
+  opacity: 1;
 }
