@@ -66,6 +66,15 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.section-title {
+  margin-top: 0;
+  
+  font-size: 40px;
+  line-height: 61px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
 /* шапка сайта */
 
 .page-header {
@@ -165,17 +174,6 @@ body {
   padding-bottom: 110px;
 }
 
-.new-sorts h2,
-.new-sorts h3 {
-  margin: 0;
-  padding: 0;
-  
-  font-size: 40px;
-  line-height: 61px;
-  color: #000000;
-  text-transform: uppercase;
-}
-
 .new-sorts h2 {
   margin-bottom: 80px;
 }
@@ -189,7 +187,13 @@ body {
 }
 
 .card h3 {
+  margin-top: 0;
   margin-bottom: 30px;
+  
+  font-size: 40px;
+  line-height: 61px;
+  color: #000000;
+  text-transform: uppercase;
 }
 
 .kwast-sample_details {
@@ -311,13 +315,7 @@ body {
 }
 
 .history-blog h2 {
-  margin-top: 0;
   margin-bottom: 75px;
-  
-  font-size: 40px;
-  line-height: 61px;
-  color: #000000;
-  text-transform: uppercase;
 }
 
 .history-preview-header h3 {
