@@ -174,7 +174,7 @@ body {
   padding-bottom: 110px;
 }
 
-.new-sorts h2 {
+.new-sorts .section-title {
   margin-bottom: 80px;
 }
 
@@ -314,7 +314,7 @@ body {
   padding-bottom: 75px;
 }
 
-.history-blog h2 {
+.history-blog .section-title {
   margin-bottom: 75px;
 }
 
@@ -372,7 +372,7 @@ body {
   background-color: #ede5d8;
 }
 
-.quote h2 {
+.quote .section-title {
   margin-bottom: 85px;
 }
 
@@ -439,4 +439,69 @@ body {
 
   background-color: #8f8a81;
   opacity: 1;
+}
+
+/* ассортимент */
+
+.stock {
+  padding-top: 95px;
+  padding-bottom: 90px;
+}
+
+.stock .section-title {
+  margin-bottom: 85px;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+  text-transform: uppercase;
+}
+
+.stock-table th,
+.stock-table td {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.stock-table th {
+  padding-top: 0;
+  padding-bottom: 30px;
+  
+  font-size: 11px;
+  color: #999999;
+  text-align: left;
+}
+
+.stock-table td {
+  padding: 20px 0;
+}
+
+.stock-table td:first-child {
+  position: relative;
+  
+  width: 50%;
+
+  font-weight: bold;
+  color: #000000;
+}
+
+.stock-table th:last-child,
+.stock-table td:last-child {
+  text-align: right;
+}
+
+.stock-table .new-item {
+  position: absolute;
+  top: 25px;
+  
+  padding: 3px 6px;
+  
+  font-size: 8px;
+  line-height: normal;
+  font-weight: bold;
+  color: #ffffff;
+  
+  background-color: #000000;
+  transform: translateX(20px);
 }
