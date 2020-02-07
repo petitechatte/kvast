@@ -184,17 +184,19 @@
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
         <form method="post" action="#">
             <label for="name">Представьтесь: <input type="text" name="name" required></label><br>
-            <label class="half-sized phone-primary">Номер телефона: <input type="text" name="phone-number" required></label><br class="hidden">
-            <label class="half-sized phone-second">Доп. номер: <input type="text" name="other-phone-number"></label><br>
-            <label>Email: <input type="text" name="e-mail" required></label><br>
+            <div class="clearfix">
+              <label class="half-sized phone-primary">Номер телефона: <input type="text" name="phone-number" required></label><br class="hidden">
+              <label class="half-sized phone-second">Доп. номер: <input type="text" name="other-phone-number"></label>
+            </div><br>
+            <label class="email">Email: <input type="text" name="e-mail" required></label><br>
             <label>Объем заказа: 
               <select name="order-quantity" required>
                <option value="5-10">От 5 до 10 баррелей в неделю</option>
               </select>
             </label><br>
           <label>Доп. комментарий: <textarea name="comment" cols="100" rows="10"></textarea></label><br>
-          <label><input type="checkbox" name="spam" checked> Я согласен получасть квасную рассылку</label><br>
-          <button class="btn" type="submit">Отправить заказ</button>
+          <label><input type="checkbox" name="spam" checked> Я согласен получать квасную рассылку</label><br>
+          <button class="btn btn-inverse" type="submit">Отправить заказ</button>
         </form>
       </div>
     </section>

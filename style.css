@@ -514,10 +514,6 @@ body {
   background-color: #ffcb78;
 }
 
-.custom-form .container {
-  outline: 1px solid red;
-}
-
 .custom-form .section-title {
   margin-bottom: 85px;
 }
@@ -534,7 +530,6 @@ body {
   font-weight: bold;
   color: #000000;
   text-transform: uppercase;
-  outline: 1px solid blue;
 }
 
 .custom-form label {
@@ -542,8 +537,7 @@ body {
 }
 
 .custom-form .half-sized {
-  width: 50%;
-  outline: 1px solid green;
+  width: 290px;
 }
 
 .custom-form .phone-primary {
@@ -559,12 +553,19 @@ body {
 .custom-form textarea {
   box-sizing: border-box;
   width: 100%;
+  margin-top: 5px;
+  padding: 15px 25px;
   border: none;
 
   font: inherit;
+  line-height: 20px;
   text-transform: uppercase;
   
   background-color: #e5b66c;
+}
+
+.custom-form textarea {
+  height: 120px;
 }
 
 .custom-form br.hidden {
