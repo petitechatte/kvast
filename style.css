@@ -16,6 +16,15 @@ body {
   clear: both;
 }
 
+.visually-hidden { 
+    position: absolute;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
 /* узкий центровщик */
 .container {
   width: 800px;
@@ -624,6 +633,35 @@ body {
 .footer-bottom .social {
   float: left;
   width: 310px;
+  
+  font-size: 0;
+}
+
+.footer-bottom .social-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+  height: 66px;
+  margin-right: -1px;
+  border: 1px solid #322d24;
+  
+  font-size: 16px;
+  
+  background-color: #1b1b1b;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.footer-bottom .social-btn-inst {
+  background-image: url("img/icon-insta.png");
+}
+
+.footer-bottom .social-btn-fb {
+  background-image: url("img/icon-fb.png");
+}
+
+.footer-bottom .social-btn-vk {
+  background-image: url("img/icon-vk.png");
 }
 
 .footer-bottom .copyright {
