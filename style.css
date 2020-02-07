@@ -505,3 +505,60 @@ body {
   background-color: #000000;
   transform: translateX(20px);
 }
+
+/* форма заказа */
+
+.custom-form {
+  padding-top: 85px;
+  padding-bottom: 110px;
+  background-color: #ffcb78;
+}
+
+.custom-form .container {
+  outline: 1px solid red;
+}
+
+.custom-form .section-title {
+  margin-bottom: 85px;
+}
+
+.custom-form h2,
+.custom-form p {
+  width: 650px;
+}
+
+.custom-form form {
+  width: 630px;
+  margin-top: 70px;
+  outline: 1px solid blue;
+}
+
+.custom-form label {
+  display: block;
+}
+
+.custom-form .half-sized {
+  width: 50%;
+  outline: 1px solid green;
+}
+
+.custom-form .phone-primary {
+  float: left;
+}
+
+.custom-form .phone-second {
+  float: right;
+}
+
+.custom-form input[type="text"],
+.custom-form select,
+.custom-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+
+  font: inherit;
+}
+
+.custom-form br.hidden {
+  display: none; /*убираем тэг между флоатами */
+}

@@ -179,12 +179,13 @@
     </section>
 
     <section class="custom-form">
+      <div class="container">
         <h2 class="section-title">Заказать</h2>
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей &mdash; скидка 10%.</p>
         <form method="post" action="#">
             <label for="name">Представьтесь: <input type="text" name="name"></label><br>
-            <label class="half-sized">Номер телефона: <input type="text" name="phone-number"></label><br>
-            <label class="half-sized">Доп. номер: <input type="text" name="other-phone-number"></label><br>
+            <label class="half-sized phone-primary">Номер телефона: <input type="text" name="phone-number"></label><br class="hidden">
+            <label class="half-sized phone-second">Доп. номер: <input type="text" name="other-phone-number"></label><br>
             <label>Email: <input type="text" name="e-mail"></label><br>
             <label>Объем заказа: 
               <select name="kwas-quantanty">
@@ -195,6 +196,7 @@
           <label><input type="checkbox" name="spam" checked=""> Я согласен получасть квасную рассылку</label><br>
           <button class="btn" type="submit">Отправить заказ</button>
         </form>
+      </div>
     </section>
 
     <footer>
