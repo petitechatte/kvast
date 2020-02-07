@@ -568,6 +568,19 @@ body {
   height: 120px;
 }
 
+.custom-form input[type="text"]:hover,
+.custom-form select:hover,
+.custom-form textarea:hover {
+  background-color: #d9ad66;
+}
+
+.custom-form input[type="text"]:focus,
+.custom-form select:focus,
+.custom-form textarea:focus {
+  background-color: #ffffff;
+  outline: none;
+}
+
 .custom-form br.hidden {
   display: none; /*убираем тэг между флоатами */
 }
