@@ -208,11 +208,12 @@ body {
   line-height: 61px;
   color: #000000;
   text-transform: uppercase;
+  word-break: break-all;
 }
 
 .kwast-sample_details {
   position: absolute;
-  top: 90px;
+  top: auto;
   right: 28px;
 
   width: 150px;
