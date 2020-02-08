@@ -504,9 +504,8 @@ body {
 }
 
 .stock-table td:first-child {
-  position: relative;
-
   width: 50%;
+  padding-right: 25px;
 
   font-weight: bold;
   color: #000000;
@@ -518,8 +517,8 @@ body {
 }
 
 .stock-table .new-item {
-  position: absolute;
-  top: 25px;
+  position: relative;
+  left: 15px;
 
   padding: 3px 6px;
 
