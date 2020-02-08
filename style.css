@@ -116,13 +116,13 @@ body {
 
 .page-header .main-menu {
   margin-bottom: 115px;
+  
+  font-size: 0;
 }
 
 .main-menu li {
   display: inline-block;
   vertical-align: middle;
-  margin-right: -4px;
-  /* убираем пробел между блочно-строчными элементами */
   padding-right: 50px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -616,6 +616,8 @@ body {
 .page-footer .main-menu {
   margin-right: 100px;
   margin-bottom: 55px;
+  
+  font-size: 0;
 }
 
 .footer-bottom .social {
@@ -626,6 +628,8 @@ body {
 }
 
 .footer-bottom .social-btn {
+  position: relative;
+
   display: inline-block;
   vertical-align: middle;
   width: 70px;
@@ -638,6 +642,17 @@ body {
   background-color: #1b1b1b;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+}
+
+.footer-bottom .social-btn:hover {
+  z-index: 1;
+
+  border-color: #605037;
+}
+
+.footer-bottom .social-btn:active {
+  border-color: #322d24;
+  opacity: 0.5;
 }
 
 .footer-bottom .social-btn-inst {
@@ -681,6 +696,15 @@ body {
   margin-right: 30px;
   
   background-color: #1b1b1b;
+}
+
+.footer-bottom .developer-link:hover {
+  border-color: #605037;
+}
+
+.footer-bottom .developer-link:active {
+  border-color: #322d24;
+  opacity: 0.5;
 }
 
 .footer-bottom .html-logo {
