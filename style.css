@@ -609,14 +609,6 @@ body {
   background-color: #000000;
 }
 
-.page-footer .wrapper {
-  outline: 1px solid red;
-}
-
-.page-footer .clearfix {
-  outline: 1px solid yellow;
-}
-
 .page-footer .logo {
   margin-left: 40px;
 }
@@ -624,10 +616,6 @@ body {
 .page-footer .main-menu {
   margin-right: 100px;
   margin-bottom: 55px;
-}
-
-.footer-bottom section {
-  outline: 1px solid orange;
 }
 
 .footer-bottom .social {
@@ -667,10 +655,10 @@ body {
 .footer-bottom .copyright {
   float: right;
   width: 705px;
-}
-
-.copyright p {
-  outline: 1px solid green;
+  
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
 }
 
 .footer-bottom .copyright-warning {
@@ -681,4 +669,36 @@ body {
 .footer-bottom .copyright-developer {
   float: right;
   width: 305px;
+  margin: 0;
+}
+
+.footer-bottom .developer-link {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+  height: 66px;
+  border: 1px solid #322d24;
+  margin-right: 30px;
+  
+  background-color: #1b1b1b;
+}
+
+.footer-bottom .html-logo {
+  display: block;
+  width: 27px;
+  height: 34px;
+  margin: auto;
+  transform: translateY(50%);
+}
+
+.footer-bottom .developer-label,
+.footer-bottom .developer-title {
+  display: inline-block;
+  vertical-align: middle;
+
+  text-align: right;
+}
+
+.footer-bottom .developer-label {
+  font-weight: bold;
 }
