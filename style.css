@@ -335,11 +335,14 @@ body {
   margin-bottom: 75px;
 }
 
+.history-preview-header {
+  margin-bottom: 30px;
+}
+
 .history-preview-header h3 {
   float: left;
   width: 490px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
 
   font-size: 20px;
   color: #000000;
@@ -354,6 +357,7 @@ body {
 .history-source a {
   color: #834700;
   font-style: italic;
+  word-wrap: break-word;
 }
 
 .history-source a:hover {
