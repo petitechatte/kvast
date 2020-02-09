@@ -88,7 +88,7 @@ body {
 
 .page-header {
   padding-top: 60px;
-  padding-bottom: 150px;
+  padding-bottom: 156px;
 
   color: #ffffff;
 
@@ -121,7 +121,7 @@ body {
 }
 
 .page-header .main-menu {
-  margin-bottom: 115px;
+  margin-bottom: 125px;
   
   font-size: 0;
 }
@@ -129,7 +129,7 @@ body {
 .main-menu li {
   display: inline-block;
   vertical-align: middle;
-  padding-right: 50px;
+  padding-right: 54px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
@@ -142,7 +142,8 @@ body {
   position: relative;
 
   display: block;
-  padding: 20px 0;
+  padding-top: 15px;
+  padding-bottom: 12px;
 
   font-size: 16px;
   font-weight: bold;
