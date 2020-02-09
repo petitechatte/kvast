@@ -99,8 +99,13 @@ body {
   background-size: cover;
 }
 
-.logo {
+.page-header .logo-container {
   float: left;
+  width: 140px;
+  height: 76px;
+}
+
+.logo {
   width: 140px;
   height: 76px;
 }
