@@ -201,8 +201,8 @@ body {
   padding: 0 33px;
 }
 
-.new-sorts .card:first-child {
-  margin-right: -1px;
+.new-sorts .card:first-of-type {
+  border-right: none;
 }
 
 .card h3 {
