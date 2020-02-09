@@ -39,7 +39,7 @@ body {
 
 .btn {
   display: inline-block;
-  padding: 14px 20px;
+  padding: 13px 20px;
   border: 2px solid #834700;
 
   line-height: 20px;
@@ -76,8 +76,6 @@ body {
 }
 
 .section-title {
-  margin-top: 0;
-
   font-size: 40px;
   line-height: 61px;
   color: #000000;
@@ -187,21 +185,23 @@ body {
 /* новинки */
 
 .new-sorts {
-  padding-top: 85px;
+  padding-top: 46px;
   padding-bottom: 110px;
-}
-
-.new-sorts .section-title {
-  margin-bottom: 80px;
 }
 
 .new-sorts .card {
   position: relative;
 
   float: left;
-  width: 334px;
-  /* 400px - 2 * 33px */
+  width: 332px; /* 400px - 2 * 33px - 2 * 1px */
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  margin-top: 42px;  
   padding: 0 33px;
+}
+
+.new-sorts .card:first-child {
+  margin-right: -1px;
 }
 
 .card h3 {
@@ -221,6 +221,7 @@ body {
   right: 28px;
 
   width: 150px;
+  margin-top: -6px;
 }
 
 .kwast-sample_details .characteristics {
@@ -230,7 +231,7 @@ body {
 
 .characteristics th,
 .characteristics td {
-  padding: 2px 10px;
+  padding: 0 10px;
   border: 1px solid #e5e5e5;
 
   line-height: 41px;
@@ -251,7 +252,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin-left: 10px;
 }
 
 .kwast-sample-description {
@@ -259,6 +260,7 @@ body {
 }
 
 .card .btn-details {
+  margin-top: 41px;
   margin-right: 2px;
 }
 
@@ -272,10 +274,6 @@ body {
   color: #000000;
   text-transform: uppercase;
   word-wrap: 
-}
-
-.card .btn-details {
-  margin-top: 52px;
 }
 
 /* преимущества */
