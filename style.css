@@ -280,7 +280,7 @@ body {
 
 .features {
   padding-top: 80px;
-  padding-bottom: 75px;
+  padding-bottom: 74px;
   background-color: #ffcb78;
 }
 
@@ -294,9 +294,8 @@ body {
   float: left;
   width: 210px;
   margin-right: 190px;
-  padding-top: 100px;
+  padding-top: 80px;
 
-  background-image: url("img/icon-brew.png");
   background-repeat: no-repeat;
   background-position: 0 0;
 }
@@ -314,12 +313,12 @@ body {
   background-image: url("img/icon-matreshka.png");
 }
 
-.feature-item:nth-child(3) {
+.features-item:nth-child(3) {
   background-image: url("img/icon-thumbsup.png");
 }
 
 .feature-tagline {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 
   font-size: 20px;
   color: #000000;
