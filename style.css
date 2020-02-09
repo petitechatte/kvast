@@ -280,7 +280,7 @@ body {
 
 .features {
   padding-top: 80px;
-  padding-bottom: 74px;
+  padding-bottom: 75px;
   background-color: #ffcb78;
 }
 
@@ -328,7 +328,7 @@ body {
 /* исторический раздел */
 
 .history-blog {
-  padding-top: 50px;
+  padding-top: 49px;
   padding-bottom: 20px;
 }
 
@@ -337,7 +337,7 @@ body {
 }
 
 .history-preview-header {
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .history-preview-title {
