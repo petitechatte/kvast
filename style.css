@@ -472,12 +472,12 @@ body {
 /* ассортимент */
 
 .stock {
-  padding-top: 95px;
+  padding-top: 60px;
   padding-bottom: 90px;
 }
 
 .stock .section-title {
-  margin-bottom: 85px;
+  margin-bottom: 75px;
 }
 
 .stock-table {
@@ -493,8 +493,7 @@ body {
 }
 
 .stock-table th {
-  padding-top: 0;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 
   font-size: 11px;
   color: #999999;
@@ -502,7 +501,7 @@ body {
 }
 
 .stock-table td {
-  padding: 20px 0;
+  padding: 18px 0;
 }
 
 .stock-table td:first-child {
@@ -520,7 +519,7 @@ body {
 
 .stock-table .new-item {
   position: relative;
-  left: 15px;
+  left: 20px;
 
   padding: 3px 6px;
 
