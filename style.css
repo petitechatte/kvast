@@ -328,8 +328,8 @@ body {
 /* исторический раздел */
 
 .history-blog {
+  margin-bottom: 65px;
   padding-top: 49px;
-  padding-bottom: 20px;
 }
 
 .history-blog .section-title {
@@ -337,6 +337,7 @@ body {
 }
 
 .history-preview-header {
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -372,7 +373,6 @@ body {
 
 .history-preview-content {
   margin-left: 0;
-  margin-bottom: 42px;
 }
 
 .history-preview-content img {
@@ -394,14 +394,14 @@ body {
 /* пресса */
 
 .quote {
-  padding-top: 80px;
+  padding-top: 45px;
   padding-bottom: 90px;
 
   background-color: #ede5d8;
 }
 
 .quote .section-title {
-  margin-bottom: 85px;
+  margin-bottom: 75px;
 }
 
 .quote .review {
@@ -435,8 +435,8 @@ body {
 
 .review cite {
   float: right;
-  width: 400px;
-  margin-top: 42px;
+  width: 330px;
+  margin-top: 30px;
 
   font-size: 20px;
   font-weight: bold;
@@ -448,7 +448,7 @@ body {
 
 .review .btn {
   float: left;
-  margin-top: 30px;
+  margin-top: 20px;
   border-color: #a5a097;
 
   color: rgba(0, 0, 0, 0.3);
