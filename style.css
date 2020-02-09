@@ -88,7 +88,7 @@ body {
 
 .page-header {
   padding-top: 60px;
-  padding-bottom: 156px;
+  padding-bottom: 154px;
 
   color: #ffffff;
 
@@ -118,10 +118,6 @@ body {
   margin-left: 0;
   padding: 0;
   list-style: none;
-}
-
-.page-header .main-menu {
-  margin-bottom: 125px;
   
   font-size: 0;
 }
@@ -178,7 +174,8 @@ body {
 }
 
 .page-header .tagline {
-  margin: 0;
+  margin-top: 120px;
+  margin-bottom: 0;
   padding: 0;
 
   font-size: 70px;
@@ -633,8 +630,6 @@ body {
 .page-footer .main-menu {
   margin-right: 100px;
   margin-bottom: 55px;
-  
-  font-size: 0;
 }
 
 .footer-bottom .social {
